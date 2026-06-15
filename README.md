@@ -36,3 +36,23 @@ Loan Prediction Problem Dataset (Kaggle)
 - Graduates have higher loan approval rate
 - Credit history is the most important factor
 - Model achieved good accuracy on test data
+
+## Task 3: Customer Churn Prediction
+
+### Objective
+Identify customers who are likely to leave the bank.
+
+### Dataset
+Churn Modelling Dataset (Kaggle)
+
+### Approach
+- Cleaned and prepared the dataset
+- Encoded Geography and Gender columns
+- Trained Random Forest Classifier
+- Analyzed feature importance
+
+### Key Insights
+- Age is the most important churn factor
+- Older customers (45+) are more likely to leave
+- Germany has the highest churn rate
+- Model achieved high accuracy on test data
