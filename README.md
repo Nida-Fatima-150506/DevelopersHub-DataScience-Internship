@@ -56,3 +56,21 @@ Churn Modelling Dataset (Kaggle)
 - Older customers (45+) are more likely to leave
 - Germany has the highest churn rate
 - Model achieved high accuracy on test data
+
+## Task 4: Predicting Insurance Claim Amounts
+
+### Objective
+Estimate medical insurance charges based on personal data.
+
+### Dataset
+Medical Cost Personal Dataset (Kaggle)
+
+### Approach
+- Encoded categorical columns
+- Visualized BMI, Age and Smoker impact
+- Trained Linear Regression model
+
+### Key Insights
+- Smokers pay 3-4x more than non-smokers
+- Age and BMI positively impact charges
+- MAE: 4186, RMSE: 5799
