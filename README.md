@@ -74,3 +74,22 @@ Medical Cost Personal Dataset (Kaggle)
 - Smokers pay 3-4x more than non-smokers
 - Age and BMI positively impact charges
 - MAE: 4186, RMSE: 5799
+
+## Task 5: Personal Loan Acceptance Prediction
+
+### Objective
+Predict which customers are likely to accept a personal loan offer.
+
+### Dataset
+Bank Marketing Dataset (Kaggle)
+
+### Approach
+- Encoded all categorical columns
+- Visualized age and marital status impact
+- Trained Logistic Regression model
+
+### Key Insights
+- Model achieved 91% accuracy
+- Married customers are the largest group
+- Most customers reject loan offers
+- Model is excellent at predicting rejections
