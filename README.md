@@ -1,95 +1,107 @@
 # DevelopersHub Data Science & Analytics Internship
 
-## Task 1: Exploring and Visualizing a Simple Dataset
+## Overview
 
-### Objective
-Understand how to read, summarize, and visualize a dataset.
+This repository contains the projects completed during my **Data Science & Analytics Internship at DevelopersHub Corporation**. The internship focused on practical applications of data analysis, visualization, machine learning, and predictive modeling using Python.
 
-### Dataset
-Iris Dataset (built-in via seaborn library)
+---
 
-### Approach
-- Loaded dataset using pandas and seaborn
-- Explored dataset structure using .shape, .columns, .head()
-- Created 3 visualizations: Scatter Plot, Histogram, Box Plot
+## Repository Structure
 
-### Key Insights
-- Virginica has the largest sepal and petal sizes
-- Setosa is clearly separated from other species
-- Petal length increases as sepal length increases
-- One outlier found in Virginica species
+```text
+DevelopersHub-DataScience-Internship/
+│
+├── README.md
+├── Task 1/
+├── Task 2/
+├── Task 3/
+├── Task 4/
+└── Task 5/
+```
 
-## Task 2: Credit Risk Prediction
+---
 
-### Objective
-Predict whether a loan applicant is likely to default on a loan.
+## Completed Tasks
 
-### Dataset
-Loan Prediction Problem Dataset (Kaggle)
+### Task 1 – Exploring and Visualizing the Iris Dataset
+- Exploratory Data Analysis (EDA)
+- Scatter Plot
+- Histogram
+- Box Plot
+- Correlation Heatmap
 
-### Approach
-- Handled missing values using mean and mode
-- Visualized loan amount, education and income
-- Trained Logistic Regression model
+### Task 2 – Credit Risk Prediction
+- Data Cleaning
+- Logistic Regression
+- Accuracy Evaluation
+- Confusion Matrix
 
-### Key Insights
-- Graduates have higher loan approval rate
-- Credit history is the most important factor
-- Model achieved good accuracy on test data
+**Accuracy:** 78.86%
 
-## Task 3: Customer Churn Prediction
+---
 
-### Objective
-Identify customers who are likely to leave the bank.
+### Task 3 – Customer Churn Prediction
+- Random Forest Classifier
+- Feature Importance Analysis
+- Customer Churn Prediction
 
-### Dataset
-Churn Modelling Dataset (Kaggle)
+**Accuracy:** 86.45%
 
-### Approach
-- Cleaned and prepared the dataset
-- Encoded Geography and Gender columns
-- Trained Random Forest Classifier
-- Analyzed feature importance
+---
 
-### Key Insights
-- Age is the most important churn factor
-- Older customers (45+) are more likely to leave
-- Germany has the highest churn rate
-- Model achieved high accuracy on test data
+### Task 4 – Predicting Insurance Claim Amounts
+- Linear Regression
+- MAE
+- RMSE
+- R² Score
 
-## Task 4: Predicting Insurance Claim Amounts
+**R² Score:** 0.7833
 
-### Objective
-Estimate medical insurance charges based on personal data.
+---
 
-### Dataset
-Medical Cost Personal Dataset (Kaggle)
+### Task 5 – Personal Loan Acceptance Prediction
+- Logistic Regression
+- Customer Segmentation
+- Business Insights
 
-### Approach
-- Encoded categorical columns
-- Visualized BMI, Age and Smoker impact
-- Trained Linear Regression model
+**Accuracy:** 95.30%
 
-### Key Insights
-- Smokers pay 3-4x more than non-smokers
-- Age and BMI positively impact charges
-- MAE: 4186, RMSE: 5799
+---
 
-## Task 5: Personal Loan Acceptance Prediction
+## Technologies Used
 
-### Objective
-Predict which customers are likely to accept a personal loan offer.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Google Colab
+- GitHub
 
-### Dataset
-Bank Marketing Dataset (Kaggle)
+---
 
-### Approach
-- Encoded all categorical columns
-- Visualized age and marital status impact
-- Trained Logistic Regression model
+## Skills Demonstrated
 
-### Key Insights
-- Model achieved 91% accuracy
-- Married customers are the largest group
-- Most customers reject loan offers
-- Model is excellent at predicting rejections
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Machine Learning
+- Classification
+- Regression
+- Feature Engineering
+- Model Evaluation
+
+---
+
+## Internship
+
+**Organization:** DevelopersHub Corporation
+
+**Domain:** Data Science & Analytics Internship
+
+---
+
+## Author
+
+**Nida Fatima**
